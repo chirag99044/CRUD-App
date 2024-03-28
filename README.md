@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# This is a basic application using React with Express and MySQL database.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
