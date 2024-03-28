@@ -1,4 +1,4 @@
-# This is a basic application using React with Express and MySQL database.
+# This is a basic CRUD application using React with Express and MySQL database.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
