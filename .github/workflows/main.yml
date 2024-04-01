@@ -18,6 +18,10 @@ jobs:
         with:
           node-version: '14'
 
+      - name: Install Dependencies for Express API
+        run: npm install
+        working-directory: backend
+        
       - name: Install Dependencies for React App
         run: npm install
         working-directory: crup_app
@@ -26,9 +30,6 @@ jobs:
         run: npm run build
         working-directory: crud_app
 
-      - name: Install Dependencies for Express API
-        run: npm install
-        working-directory: backend
 
   deploy:
     needs: build
