@@ -25,7 +25,7 @@ function App() {
 					<Route
 					path="/edit/:Id"
 					element={<Edit />}
-					/>				
+					/>			 	
 				</Routes>
 			</Router>
 		</div>
