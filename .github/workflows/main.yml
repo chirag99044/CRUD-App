@@ -22,10 +22,6 @@ jobs:
         run: npm install
         working-directory: backend
 
-        - name: List Contents of Directory
-        run: ls -l
-        working-directory: <path/to/directory>
-
       - name: Install Dependencies for React App
         run: npm install
         working-directory: crup_app
