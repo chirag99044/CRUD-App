@@ -20,11 +20,11 @@ jobs:
 
       - name: Install Dependencies for React App
         run: npm install
-        working-directory: client
+        working-directory: crup_app
 
       - name: Build React App
         run: npm run build
-        working-directory: client
+        working-directory: crud_app
 
       - name: Install Dependencies for Express API
         run: npm install
@@ -37,7 +37,4 @@ jobs:
     steps:
       - name: Deploy to Hosting Service
         # Add deployment steps here (e.g., deploy to Vercel, Netlify, AWS, etc.)
-        # For example, if deploying to Vercel:
-        run: |
-          vercel --prod --confirm
-        working-directory: client
+        run: echo "Success"
